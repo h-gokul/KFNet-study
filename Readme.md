@@ -22,5 +22,5 @@ sudo systemctl enable docker
 
 - ``` docker run -it --rm --gpus all -v $(pwd):/workspace/ floydhub/tensorflow:1.11-gpu.cuda9cudnn7-py3_aws.40 bash ```
 
-Note: -it tag means interactive mode. --rm tag means, the container will be automatically deleted after we exit the command line si closed.
+Note: ```-it``` tag means interactive mode. ```--rm``` tag means, the container will be automatically deleted after we exit the command line si closed.
 
