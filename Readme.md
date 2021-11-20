@@ -24,3 +24,4 @@ sudo systemctl enable docker
 
 Note: ```-it``` tag means interactive mode. ```--rm``` tag means, the container will be automatically deleted after we exit the command line si closed.
 
+To load and save, refer this [tutorial](https://www.youtube.com/watch?v=5NXw_ioFda4)
