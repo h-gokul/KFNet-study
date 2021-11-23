@@ -30,7 +30,9 @@ In the docker terminal, go to workspace folder ``` cd ../workspace```
 Download models from [here](https://drive.google.com/file/d/13KZGz_akJw8iTQW90pgbuw2JAQzV7cG8/view) and paste in ./models folder. Also refer main [repository](https://github.com/zlthinker/KFNet#testing)
 
 To predict scene coordinates, 
-- run ```python KFNet/eval.py --input_folder ./input --output_folder ./output/fire --model_folder ./models/KFNet/fire --scene fire```
+- run 
+`python KFNet/eval.py --input_folder ./input --output_folder ./output/fire --model_folder ./models/KFNet/fire --scene fire
+`
 Note: this will save the process, measured and filtered scene coordinates.
 
 To predict optical flow, 
