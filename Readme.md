@@ -1,19 +1,19 @@
 # KFNet- Study
 
-### Install Instructions.
-#### Docker setup
+### Docker setup:
 Follow this tutorial for installing docker, if not available already.
 Run the following commands to install docker.io
-'''
+```
 sudo apt update
 sudo apt install docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
-'''
+```
+Follow the steps to install Nvidia-container-toolkit [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker). If the console output shows the GPU, contine to the next steps.
 
-- Follow the steps to install Nvidia-container-toolkit [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker). If the console output shows the GPU, follow the next steps
+### Load our docker image
 
-- Download this [docker image ](NEED TO PROVIDE LINK) 
+Download this [docker image ](NEED TO PROVIDE LINK) 
 
 - run ``` docker load < kfnetv1.tar.gz ```
 
