@@ -1,4 +1,5 @@
 # KFNet- Study
+This is a study project on Bayesian State estimation in a deep learning framework. KFNet estimates scene coordinates aka. point clouds using a measurement/ process systems and uses a kalman filter formulation to refine the estimated point clouds. This repository is adapted from this [main codebase](https://github.com/zlthinker/KFNet).
 
 ### Docker setup:
 Follow this tutorial for installing docker, if not available already.
@@ -28,7 +29,7 @@ Note: -it tag means interactive mode. --rm tag means, the container will be auto
 In the docker terminal, go to workspace folder ``` cd ../workspace```
 
 - Download models from [here](https://drive.google.com/file/d/13KZGz_akJw8iTQW90pgbuw2JAQzV7cG8/view) and paste in ./models folder. Also refer main [repository](https://github.com/zlthinker/KFNet#testing)
-- Download the prepared labels and images as mentioned [here](https://github.com/zlthinker/KFNet#usage) 
+- Download the prepared labels and images as mentioned [here](https://github.com/zlthinker/KFNet#usage) and paste in ./inputs folder
 
 To predict scene coordinates, 
 - run 
