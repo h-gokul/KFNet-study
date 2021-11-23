@@ -27,7 +27,8 @@ Note: -it tag means interactive mode. --rm tag means, the container will be auto
 
 In the docker terminal, go to workspace folder ``` cd ../workspace```
 
-Download models from [here](https://drive.google.com/file/d/13KZGz_akJw8iTQW90pgbuw2JAQzV7cG8/view) and paste in ./models folder. Also refer main [repository](https://github.com/zlthinker/KFNet#testing)
+- Download models from [here](https://drive.google.com/file/d/13KZGz_akJw8iTQW90pgbuw2JAQzV7cG8/view) and paste in ./models folder. Also refer main [repository](https://github.com/zlthinker/KFNet#testing)
+- Download the prepared labels and images as mentioned [here](https://github.com/zlthinker/KFNet#usage) 
 
 To predict scene coordinates, 
 - run 
@@ -36,4 +37,5 @@ To predict scene coordinates,
 Note: this will save the process, measured and filtered scene coordinates.
 
 To predict optical flow, 
-- run ```python OFlowNet/eval.py --input_folder ./input --output_folder ./output/fire --model_folder ./models/OFlowNet --scene fire```
+- run 
+`python OFlowNet/eval.py --input_folder ./input --output_folder ./output/fire --model_folder ./models/OFlowNet --scene fire`
