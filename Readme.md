@@ -38,12 +38,17 @@ You can either follow the below evaluation procedure to predict the point clouds
 
   To predict scene coordinates, 
   - run 
+  
     `python KFNet/eval.py --input_folder <input folder> --output_folder <output folder> --model_folder ./models/KFNet/$scene$ --scene $scene$`
+  
   Example:
     `python KFNet/eval.py --input_folder ./input --output_folder ./output/fire --model_folder ./models/KFNet/fire --scene fire`
+  
+  
   Note: this will save the process, measured and filtered scene coordinates.
 
   To predict optical flow, 
+  
   - run 
      `python OFlowNet/eval.py  <input folder> --output_folder <output folder> --model_folder ./models/OFlowNet`
   
