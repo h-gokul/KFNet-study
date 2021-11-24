@@ -67,7 +67,24 @@ You can either follow the below evaluation procedure to predict the point clouds
   - Check `OpticalFlowVisualization.ipynb` to visualize the optical flow
 
 ## PnP RANSAC + NonLinear Optimization
-  Having estimated the point clouds, we can solve for the camera poses using the Perspective-n-Point method with RANSAC and refinement by Non Linear Optimization, which uses a reprojection error based constraint. The dependancies for this section involve a different docker container using Ubuntu 20.04 which we provide [here](NEED TO PROVIDE LINK).  Follow the below steps to obtain the pose estimates.
+  Having estimated the point clouds, we can solve for the camera poses using the Perspective-n-Point method with RANSAC and refinement by Non Linear Optimization, which uses a reprojection error based constraint. The dependancies for this section involve a different docker container using Ubuntu 20.04 which we provide [here](https://drive.google.com/drive/folders/1bBZqLPaWx7rn4LpaXmskTNUGgvuJthab?usp=sharing.  Follow the below steps to obtain the pose estimates.
+
+  - Download the above link and unzip all the files.
+  - run ``` docker load < PnP_Docker.tar```
+  - ``` docker image ls ```
+  - ```docker run -it --rm --gpus all -v $(pwd):/workspace/ ubuntu/ubuntu:20.04 bash```
+  - unzip PnP.zip && cd PnP
+  - unzip PnP_Files.zip
+  - Place pnp_input and pnp_new in the main repo.
+  - cd pnp-new 
+
+To get camera poses, 
+  - run 
+  
+    `python main.py <path_to_output_file_list> <output_folder> --gt <path_to_ground_truth_pose_list> --thread <32>`
+  
+  Example:
+    `python main.py ../pnp-input/fire/cord_list.txt ./pnp-output/ --gt ../pnp-input/fire/gt_pose_list.txt --thread 32`
   
 
 
