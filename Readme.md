@@ -1,5 +1,5 @@
 # KFNet- Study
-This is a study project on Bayesian State estimation in a deep learning framework. KFNet estimates scene coordinates aka. point clouds using a measurement/ process systems and uses a kalman filter formulation to refine the estimated point clouds. This repository is adapted from this [main codebase](https://github.com/zlthinker/KFNet).
+This is a study project on Bayesian State estimation in a deep learning framework. KFNet estimates scene coordinates aka. point clouds using a measurement + process systems and  uses a kalman filter formulation to refine the estimated point clouds. This repository is adapted from this [main codebase](https://github.com/zlthinker/KFNet).
 
 You can either follow the below evaluation procedure to predict the point clouds, or you can download the point clouds that we have already obtained [here](NEED TO PROVIDE LINK)  and skip to the visualization step.
 
