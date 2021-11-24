@@ -67,7 +67,7 @@ You can either follow the below evaluation procedure to predict the point clouds
   - Check `OpticalFlowVisualization.ipynb` to visualize the optical flow
 
 ## PnP RANSAC + NonLinear Optimization
-  Having estimated the point clouds, we can solve for the camera poses using the Perspective-n-Point method with RANSAC and refinement by Non Linear Optimization, which uses a reprojection error based constraint. The dependancies for this section involve a different docker container using Ubuntu 20.04 which we provide [here](https://drive.google.com/drive/folders/1bBZqLPaWx7rn4LpaXmskTNUGgvuJthab?usp=sharing.  Follow the below steps to obtain the pose estimates.
+  Having estimated the point clouds, we can solve for the camera poses using the Perspective-n-Point method with RANSAC and refinement by Non Linear Optimization, which uses a reprojection error based constraint. The dependancies for this section involve a different docker container using Ubuntu 20.04 which we provide [here](https://drive.google.com/drive/folders/1bBZqLPaWx7rn4LpaXmskTNUGgvuJthab?usp=sharing).  Follow the below steps to obtain the pose estimates.
 
   - Download the above link and unzip all the files.
   - run ``` docker load < PnP_Docker.tar```
