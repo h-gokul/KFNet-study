@@ -19,7 +19,7 @@ You can either follow the below evaluation procedure to predict the point clouds
 
   ### Obtaining inference
 
-  Download our [docker image ](https://drive.google.com/drive/folders/1cMDvOlGF1XWl98dUlTmkPmoREFFFfQ2D?usp=sharing) 
+  Download our [docker image ](https://drive.google.com/file/d/1dXRGWzegkdFiNrFR_S98wCI62qHycpjX/view?usp=sharing) 
 
   - run ``` docker load < kfnetv1.tar.gz ```
 
