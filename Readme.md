@@ -1,10 +1,10 @@
 # KFNet- Study
 This is a study project on Bayesian State estimation in a deep learning framework. KFNet estimates scene coordinates aka. point clouds using a measurement + process systems and  uses a kalman filter formulation to refine the estimated point clouds. This repository is adapted from this [main codebase](https://github.com/zlthinker/KFNet).
 
-You can either follow the below evaluation procedure to predict the point clouds, or you can download the point clouds that we have already obtained [here](NEED TO PROVIDE LINK)  and skip to the visualization step.
+You can either follow the below evaluation procedure to predict the point clouds, or you can download the point clouds that we have already obtained [here](https://drive.google.com/drive/folders/1cMDvOlGF1XWl98dUlTmkPmoREFFFfQ2D?usp=sharing)  and skip to the visualization step.
 
 ## Predict the point clouds:
-  The codebase requires CUDA 9.0 cudnn 7 and tensorflow 1.10-gpu. These are not the latest versions and we have built a docker container that covers all of these required dependancies. For this, however, you need docker to be setup in your system, and its install procedure is explained below/ 
+  The codebase requires CUDA 9.0 cudnn 7 and tensorflow 1.10-gpu. These are not the latest versions and we have built a docker container that covers all of these required dependancies. For this, however, you need docker to be setup in your system, and its install procedure is explained below.
   ### Docker setup:
   
   Follow this tutorial for installing docker, if not installed already. Otherwise skip to the next step.
@@ -19,7 +19,7 @@ You can either follow the below evaluation procedure to predict the point clouds
 
   ### Obtaining inference
 
-  Download our [docker image ](NEED TO PROVIDE LINK) 
+  Download our [docker image ](https://drive.google.com/drive/folders/1cMDvOlGF1XWl98dUlTmkPmoREFFFfQ2D?usp=sharing) 
 
   - run ``` docker load < kfnetv1.tar.gz ```
 
