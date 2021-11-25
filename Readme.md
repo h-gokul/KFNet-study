@@ -65,6 +65,9 @@ You can either follow the below evaluation procedure to predict the point clouds
   Having all dependancies installed, 
   - check `PointCloudVisualization.ipynb` to visualize the point clouds.
   - Check `OpticalFlowVisualization.ipynb` to visualize the optical flow
+  We modified the thresholding mechanism to reject outliers in point clouds. KFNet had a static thresholding  for outlier rejection using the uncertainity maps by default. we rewrote the function to do autothreshold based on the uncertainity maps.
+
+  We also modified the evaluation script to provide the process, measurment as well as the filtered states (point clouds)
 
 ## PnP RANSAC + NonLinear Optimization
   Having estimated the point clouds, we can solve for the camera poses using the Perspective-n-Point method with RANSAC and refinement by Non Linear Optimization, which uses a reprojection error based constraint. The dependancies for this section involve a different docker container using Ubuntu 20.04 which we provide [here](https://drive.google.com/drive/folders/1bBZqLPaWx7rn4LpaXmskTNUGgvuJthab?usp=sharing).  Follow the below steps to obtain the pose estimates.
