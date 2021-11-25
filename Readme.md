@@ -3,7 +3,7 @@ This is a study project on Bayesian State estimation in a deep learning framewor
 
 You can either follow the below evaluation procedure to predict the point clouds, or you can download the point clouds that we have already obtained [here](https://drive.google.com/drive/folders/1cMDvOlGF1XWl98dUlTmkPmoREFFFfQ2D?usp=sharing)  and skip to the visualization step.
 
-Presentation video and slides can [here](https://drive.google.com/drive/folders/1cMDvOlGF1XWl98dUlTmkPmoREFFFfQ2D?usp=sharing)
+The original paper & our presentation video and slides can be found [here](https://drive.google.com/drive/folders/1cMDvOlGF1XWl98dUlTmkPmoREFFFfQ2D?usp=sharing).
 
 ## Predict the point clouds:
   The codebase requires CUDA 9.0 cudnn 7 and tensorflow 1.10-gpu. These are not the latest versions and we have built a docker container that covers all of these required dependancies. For this, however, you need docker to be setup in your system, and its install procedure is explained below.
